@@ -63,18 +63,31 @@ brownOnly.splice(1,5, 'brown', 'brown', 'brown');
 
 // unshift
 
-
+var orderedValuesNewLength = orderedValues.unshift(1,2,3);
 
 // concat
+
+var randomThingsArray = genericNumberArray.concat(colors);
+
+var updatedOrders = orderQueue.concat({ takeOut: 'sammy' }, { takeOut: 'pizza'});
 
 
 // join
 
+var sentence = scrambledWords.join(' ');
+
+myFruits = fruitCollection.join(' + ');
+
 
 // slice
 
+var favoriteFriends = friends.slice(1,3);
+
+var owesMoney = friends.slice(3,6);
 
 // toString
+
+var monthNameString = monthNames.toString(',');
 
 
 // indexOf
