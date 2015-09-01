@@ -41,3 +41,14 @@ phoneNumber.reverse();
 // shift
 
 var nextOrder = orderQueue.shift();
+
+// sort
+
+mixedNums.sort();
+mixedWords.sort();
+
+// splice
+
+notFruit = fruitCollection.splice(1, 3);
+gemBox.splice(5,2);
+gemBox.splice(6,4);
